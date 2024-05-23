@@ -16,7 +16,7 @@
 require 'rubygems'
 require 'nokogiri'
 require 'faraday'
-require 'faraday_middleware'
+require 'faraday/follow_redirects'
 
 module Azure
   module Core
